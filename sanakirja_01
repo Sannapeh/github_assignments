@@ -1,0 +1,22 @@
+import json
+sanaetsinta=input("Syötä sana:")
+print(haku, "=", vastine)
+
+sanat = {
+  "car": "auto",
+  "cat": "kissa",
+  "city": "kaupunki",
+  "dog": "koira",
+  "yellow":"keltainen",
+  "sun": "aurinko",
+  "dad": "isä",
+  "home": "koti",
+  "house": "talo",
+  "summer": "kesä",
+  "holiday": "loma"
+
+}
+
+tuloste = json.dumps(sanat)
+
+print(tuloste)
