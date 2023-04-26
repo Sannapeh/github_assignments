@@ -1,0 +1,11 @@
+import esimerkki
+
+with open("esimerkki.txt") as tiedosto:
+    for rivi in esimerkki.txt(tiedosto, delimiter=";"):
+        print(rivi)
+
+        
+        
+        kielletyt_sanat = ['bomb', 'kill', 'murder', 'terror', 'terrorist', 'terrorist', 'terrorism']
+        
+        kielletyt_sanat.remove('')
